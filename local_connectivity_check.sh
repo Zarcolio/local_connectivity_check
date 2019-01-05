@@ -7,6 +7,7 @@ else
         IP=$(hostname -I)
         echo "">>/etc/hosts
         echo  "#local_connectivity_check:">>/etc/hosts
+        
         # Block Google Connectivity check:
         mkdir /var/www/html/generate_204/
         echo "<?php header(\"HTTP/1.0 204 No Content\"); ?>">/var/www/html/generate_204/index.php
