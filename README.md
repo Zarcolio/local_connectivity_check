@@ -1,2 +1,4 @@
-# local_connectivity_check
-Local connectivity check (connectivitycheck.gstatic.com / connectivitycheck.android.com / detectportal.firefox.com)
+This little bash script creates a local bypass for connectivity test on a pi-hole for:
+* connectivitycheck.gstatic.com
+* connectivitycheck.android.com
+* detectportal.firefox.com)
